@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>The Gyuhyuk Time</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+      }
+      @keyframes superSexyCoinFlip {
+        0% {
+          transform: rotateY(0deg);
+          border-radius: 0px;
+        }
+        50% {
+          transform: rotateY(360deg) translateY(-100px);
+          border-radius: 50px;
+        }
+        100% {
+          transform: rotateY(0deg);
+        }
+      }
+      img {
+        border: 5px solid yellowgreen;
+        border-radius: 50%;
+        width: 200px;
+        animation: superSexyCoinFlip 3s ease-in-out infinite;
+      }
+    </style>
+    <body>
+      <img src="netflix.png" />
+    </body>
+  </head>
+</html>
