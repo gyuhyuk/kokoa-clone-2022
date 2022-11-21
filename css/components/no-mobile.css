@@ -1,0 +1,20 @@
+#no-mobile {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  background-image: url(https://cdn.clien.net/web/api/file/F01/11667959/58554547b9d0eb.jpg?w=780&h=30000);
+  background-size: cover;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  top: 0;
+  color: rgb(212, 111, 180);
+}
+
+@media screen and (max-width: 645px) {
+  #no-mobile {
+    display: none;
+  }
+}
